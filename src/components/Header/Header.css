@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.header-btn{
+    margin-right: 15px;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(78, 78, 214);
+    font-weight: bold;
+}
