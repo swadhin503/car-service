@@ -1,0 +1,51 @@
+[
+  {
+    "id": "624aa5621564cd7d1dd95f4f",
+    "price": "$120",
+    "image": "Assets/book-1.jpg",
+    "rating": "4",
+    "name": "To Kill a Mockingbird",
+    "review":"Why is it when I pick up To Kill A Mockingbird , I am instantly visited by a sensory memory: I’m walking home, leaves litter the ground, crunching under my feet. I smell the smoke of fireplaces and think about hot cider and the wind catches and my breath is taken from me and I bundle my coat tighter against me and lift my head to the sky, no clouds, just a stunning blue that hurts my eyes, another deep breath and I have this feeling that all is okay."
+  },
+  {
+    "id": "624aa56250b7dc7ed185c033",
+    "price": "$297",
+    "image": "Assets/book-2.jpg",
+    "rating": "3",
+    "name": "The fault in our Stars",
+    "review":"Yeah, I know, but I didn’t really get into reading up until maybe four years ago. And I’m not too into contemporary, but the opportunity presented itself and I took my first dive. My sister is a fan of John Green. She really loves Looking for Alaska and Will Grayson, Will Grayson and finds Paper Towns to be LfA’s quirky New Girl twin that doesn’t own up."
+  },
+  {
+    "id": "624aa5620d6cd7d6d8a2503f",
+    "price": "$3,652.43",
+    "image": "Assets/book-3.jpg",
+    "rating": "{5}",
+    "name": "The kite runner",
+    "review":"Finished this book about a month ago but it's taken me this long to write a review about it because I have such mixed feelings about it. It was a deeply affecting novel, but mostly not in a good way. I really wanted to like it, but the more I think about what I didn't like about the book, the more it bothers me. I even downgraded this review from two stars to one from the time I started writing it to the time I finished."
+  },
+  {
+    "id": "624aa562f1b30cfd388ab69a",
+    "price": "$153",
+    "image": "Assets/book-4.jpg",
+    "rating": "4",
+    "name": "Life of pi",
+    "review":"I read this book two years ago, but when we discussed it this month for book club, I remembered how much I liked it. A good discussion always ups my appreciation of a novel as does an ending that makes me requestion my givens in the story. I find myself reading contradictory interpretations and agreeing with both sides. That's the beauty of symbolism: as long as you back up your cause, it's plausible."
+  },
+  {
+    "id": "624aa5628b5e59f1d35d68bb",
+    "price": "$308",
+    "image": "Assets/book-5.jpg",
+    "rating": "2",
+    "name": "The curious incident of the dog in the nighttime",
+    "review":"if you want to read an excellent book about autism in a young person, read marcelo in the real world. this book is like hilary swank - you can tell it is trying really hard to win all the awards but it has no heart inside. and yet everyone eats it up. C0ME ON!!no one likes gimmicks."
+  },
+  {
+    "id": "624aa56279e1d6870681a26f",
+    "price": "$114",
+    "image": "Assets/book-6.jpg",
+    "rating": "4",
+    "name": "Lord of the flies",
+    "review": "I read this book a long time ago, long enough to where I barely remembered anything past the basic premise. So I picked it up again, only to wish I hadn't. There's a reason why they teach this book in middle school--in order to enjoy this book, one's intellectual cognizance must be that of a child, because otherwise you'll spend the entire time picking out everything that's wrong with the book. And there's a lot to pick out."
+
+  }
+]

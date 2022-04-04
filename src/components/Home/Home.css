@@ -1,17 +1,28 @@
 .container{
     display: grid;
     grid-template-columns: repeat(2,1fr) ;
-    margin-left: 30px ;
+    margin-left: 100px ;
     margin-top: 30px;
-}
-.img-container{
-    margin-left: 80px;
-    margin-top: 80px;
-    width: 600px;
 }
 .first-title{
     font-size: 50px;
 }
 .second-title{
     color: rgba(21, 142, 142, 0.737);
+}
+.btn{
+    background-color:rgb(210, 81, 103);
+    border: 3px solid rgb(213, 79, 101);
+    padding: 5px;
+    margin-top:30px;
+    margin-left: 40px;
+    color: white;
+
+}
+.img-container{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.img-container img{
+    width: 80%;
 }

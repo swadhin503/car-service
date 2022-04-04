@@ -1,0 +1,20 @@
+.chart-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:100px;
+}
+.line-chart{
+    margin-left: 60px;
+}
+.line-chart h2{
+    text-align: center;
+    color: blueviolet;
+}
+.pie-chart h2{
+    margin-left: 80px;
+    color: blueviolet;
+
+}
+.pie-chart{
+    margin-left:150px;
+}

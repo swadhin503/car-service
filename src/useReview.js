@@ -1,0 +1,13 @@
+import { useEffect, useState } from "react"
+
+const useReview = ()=> {
+    const [review,setReview] = useState([]);
+    useEffect(()=>{
+        fetch('generated.json')
+        .then(res => res.json())
+        .then(data => console.log(data));
+    },[])
+    return [review,setReview];
+}
+
+export default useReview;
