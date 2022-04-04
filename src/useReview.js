@@ -5,7 +5,7 @@ const useReview = ()=> {
     useEffect(()=>{
         fetch('generated.json')
         .then(res => res.json())
-        .then(data => console.log(data));
+        .then(data => setReview(data));
     },[])
     return [review,setReview];
 }

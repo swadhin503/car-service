@@ -1,12 +1,16 @@
 import React, { useEffect } from 'react';
 import useReview from '../../useReview';
+import Review from '../Review/Review';
 
-const Reviews = () => {
-    const [review,setReview] = useReview();
-    console.log(review);
+const Reviews = ({review}) => {
+    const [reviews,setReviews] = useReview();
+    // console.log(review);
+
     return (
         <div>
-            <h1>Watch the reviews</h1>
+           {
+             reviews.map(review => <Review key={review.id} review={review}></Review> )
+           }
         </div>
     );
 };

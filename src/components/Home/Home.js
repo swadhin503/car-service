@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from '../../images/download (3).jpg';
+import useReview from '../../useReview';
+import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
+    const [reviews,setReviews]=useReview();
     return (
         <div>
             <div className="container">
@@ -16,7 +19,11 @@ const Home = () => {
                     <img src={logo} alt="" />
                 </div>
           </div>
-          <div className="re"></div>
+          <div className="review-container">
+            {
+                reviews.slice(0,3).map(review=> <Review key={review.id} review={review}></Review>)
+            }
+          </div>
         </div>
     );
 };
