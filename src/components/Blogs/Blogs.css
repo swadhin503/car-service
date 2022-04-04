@@ -1,0 +1,13 @@
+.blogs-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 70px;
+    margin-right:70px;
+    margin-top:100px;
+    gap: 30px;
+}
+.blogs{
+    margin-left:20px;
+    border: 2px solid orange;
+    padding: 10px;
+}
