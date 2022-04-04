@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../images/download (3).jpg';
 import useReview from '../../useReview';
 import Review from '../Review/Review';
@@ -19,11 +20,16 @@ const Home = () => {
                     <img src={logo} alt="" />
                 </div>
           </div>
-          <div className="review-container">
+          <div>
+          <h1 className="review-title">Watch Reviews</h1>
+          <div className="home-review-container">
+              
             {
                 reviews.slice(0,3).map(review=> <Review key={review.id} review={review}></Review>)
             }
           </div>
+          </div>
+          <Link to="/reviews"><button class="see-all">See All</button></Link>
         </div>
     );
 };

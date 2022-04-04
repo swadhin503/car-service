@@ -26,3 +26,24 @@
 .img-container img{
     width: 80%;
 }
+.review-title{
+    text-align: center;
+    margin-top:70px;
+    color: tomato;
+}
+.home-review-container{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.see-all{
+    padding: 10px;
+    background-color:skyblue;
+    color: white;
+    border: 2px solid rgb(94, 94, 216);
+    margin-bottom:30px;
+    margin-left: 650px;
+    margin-top: 30px;
+    width: 200px;
+    font-weight: bold;
+    font-size:20px;
+}
